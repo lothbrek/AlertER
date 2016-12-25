@@ -1,9 +1,9 @@
-class User < ApplicationRecord
+class Manager < ApplicationRecord
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-  belongs_to :manager
+  has_many :users
   belongs_to :admin
 end
