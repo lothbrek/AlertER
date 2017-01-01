@@ -53,3 +53,5 @@ gem 'bootstrap-sass', '3.3.6'
 gem 'font-awesome-sass', '~> 4.6.2'
 gem 'sidekiq' #for background jobs
 gem 'rails_admin' #https://github.com/sferik/rails_admin
+
+ruby "2.3.1"
